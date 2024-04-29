@@ -101,7 +101,7 @@ function selectAnswer(e){
 
 function showScore(){
     resetState();
-    questionElement.innerHTML = `Sua pontuação é ${score} de ${questions.length}!`;
+    questionElement.innerHTML = `Sua pontuação foi ${score} de ${questions.length}!`;
     nextButton.innerHTML = "Jogar novamente?";
     nextButton.style.display = "block";
 }
